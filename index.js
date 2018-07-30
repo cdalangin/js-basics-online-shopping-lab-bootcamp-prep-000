@@ -41,6 +41,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+  var 
   for (var i=0; i<cart.length; i++)
   console.log(cart[i].itemName);
   if(cart.includes(item)) {
