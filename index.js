@@ -44,7 +44,6 @@ function removeFromCart(item) {
   var inCart=false
   for (var i=0; i<cart.length; i++)
   console.log(cart[i].itemName);
-  
   if(cart.includes(item)) {
    return `${cart.prototype.splice(i)}`
    } else {
