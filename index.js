@@ -41,12 +41,13 @@ function total() {
 }
 
 function removeFromCart(item) {
-  for (var item in cart)
+  for (var item in cart) {
   console.log(cart[i].itemName);
   if(cart.includes(item)) {
    return `${cart.prototype.splice(i)}`
    } else {
    return `That item is not in your cart.`
+}
 }
 }
 function placeOrder(cardNumber) {
