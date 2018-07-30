@@ -43,8 +43,8 @@ function total() {
 function removeFromCart(item) {
   var inCart=false
   for (var i=0; i<cart.length; i++)
-  console.log(cart[i].itemName);
   if(cart.includes(item)) {
+    inCart=true
    return `${cart.prototype.splice(i)}`
    } else {
    return `That item is not in your cart.`
