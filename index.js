@@ -41,10 +41,9 @@ function total() {
 }
 
 function removeFromCart(item) {
-  for (var item in cart) {
-  console.log(cart[i].itemName);
-  if(cart.includes(item)) {
-   return `${cart.prototype.splice(i)}`
+  for (var itemName in cart) {
+  if(itemName==item) {
+   return `${cart.splice(i, 1)}`
    } else {
    return `That item is not in your cart.`
 }
